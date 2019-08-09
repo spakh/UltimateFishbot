@@ -18,7 +18,7 @@ namespace UltimateFishBot
             Console.Out.WriteLine("Hash dodge");
 
             Log.Logger = new LoggerConfiguration()
-                .WriteTo.ColoredConsole()
+                .WriteTo.Console()
                 .WriteTo.File("ufb.log")
                 .WriteTo.Trace()
                 .CreateLogger();
