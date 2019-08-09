@@ -54,7 +54,7 @@ namespace UltimateFishBot
             while (wowWindowPointer == new IntPtr())
             {
                 var result = MessageBox.Show(
-                    @"Could not find the the WoW process. Please make sure the game is running.",
+                    @"Could not find the WoW process. Please make sure the game is running.",
                     @"Error - WoW not open", MessageBoxButtons.RetryCancel, MessageBoxIcon.Error);
                 if (result == DialogResult.Cancel)
                     Environment.Exit(1);
